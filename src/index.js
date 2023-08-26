@@ -1,1 +1,3 @@
-alert('yesssssir');
+import { loadInitialPage } from './initial-page'
+
+loadInitialPage()
