@@ -1,2 +1,3 @@
 # Restaurant-Page
-Dynamic Restaurant website 
+
+check it out https://mosierkyle.github.io/Restaurant-Page/
