@@ -5,7 +5,8 @@
   "description": "Dynamic Restaurant website",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack",
+    "available": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",

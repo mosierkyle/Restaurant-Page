@@ -41,8 +41,13 @@
 
 .tab:hover {
     cursor: pointer;
+    position: relative;
+    bottom: 2px;
 }
 
+#home {
+    text-decoration: underline;
+}
 
 /* initial page css */
 #page1 {

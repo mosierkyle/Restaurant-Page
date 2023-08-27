@@ -10,8 +10,11 @@ export const loadHeader = () => {
     title.setAttribute('id', 'title')
     tabs.setAttribute('id', 'tabs-container')
     home.setAttribute('class', 'tab')
+    home.setAttribute('id', 'home')
     menu.setAttribute('class', 'tab')
+    menu.setAttribute('id', 'menu')
     contact.setAttribute('class', 'tab')
+    contact.setAttribute('id', 'contact')
 
     title.textContent = `Dimaggio's`
     home.textContent = `Home`
