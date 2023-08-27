@@ -13,7 +13,7 @@ export const loadHeader = () => {
     menu.setAttribute('class', 'tab')
     contact.setAttribute('class', 'tab')
 
-    title.textContent = `Greecio's`
+    title.textContent = `Dimaggio's`
     home.textContent = `Home`
     menu.textContent = `Menu`
     contact.textContent = `Contact`
