@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack",
-    "available": "git subtree push --prefix dist origin gh-pages"
+    "available": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
