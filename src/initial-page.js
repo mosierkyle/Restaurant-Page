@@ -4,6 +4,7 @@ export const loadInitialPage = () => {
     
     const heroDiv = document.createElement('div');
     const headline = document.createElement('h1');
+    const headlineIntro = document.createElement('p');
     const heroCopy = document.createElement('p');
     
     const about = document.createElement('div');
@@ -35,10 +36,12 @@ export const loadInitialPage = () => {
     page1.setAttribute('id', 'page1');
     heroDiv.setAttribute('id', 'hero-div')
     headline.setAttribute('id', 'headline')
+    headlineIntro.setAttribute('id', 'headline-intro')
     heroCopy.setAttribute('id', 'hero-copy')
     
+    headlineIntro.textContent = `Welcome to`
     headline.textContent = `Little Sicily`
-    heroCopy.textContent = `We're not Italian... We're Sicilian `
+    heroCopy.textContent = `We're not Italian... We're Sicilian`
     
     aboutHeader.textContent = `About`
     
@@ -53,6 +56,7 @@ export const loadInitialPage = () => {
 
     content.appendChild(page1);
     page1.appendChild(heroDiv);
+    heroDiv.appendChild(headlineIntro)
     heroDiv.appendChild(headline);
     heroDiv.appendChild(heroCopy);
     page1.appendChild(about);
